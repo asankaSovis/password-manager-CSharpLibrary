@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "f5UZKce7tBBYV0LQqUttCKeWpWGuTfUcCEI+01BTNshMkz2x6v4kBN8/aHZsPVhXbhPzWYiDKBJNL6gXNtjRBg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\akash\\Documents\\GitHub\\password-manager-CSharpLibrary\\password-manager-CSharpLibrary\\password-manager-CSharpCLI\\password-manager-CSharpCLI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\akash\\.nuget\\packages\\fernet\\0.1.7\\fernet.0.1.7.nupkg.sha512"
+  ],
+  "logs": []
+}

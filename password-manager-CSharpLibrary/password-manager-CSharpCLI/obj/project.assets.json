@@ -1,0 +1,114 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Fernet/0.1.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Fernet.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Fernet.dll": {}
+        }
+      },
+      "password-manager-CSharpLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Fernet": "0.1.7"
+        },
+        "compile": {
+          "bin/placeholder/password-manager-CSharpLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/password-manager-CSharpLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Fernet/0.1.7": {
+      "sha512": "HAOqwjNey4u3u1AcNiofXO7201HfLcuLQap9iBE7OHh8quhQBaSf0r66EpEbJFHb4Hwphm6w33+Seaz2VX80ZQ==",
+      "type": "package",
+      "path": "fernet/0.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fernet.0.1.7.nupkg.sha512",
+        "fernet.nuspec",
+        "lib/netstandard2.0/Fernet.dll"
+      ]
+    },
+    "password-manager-CSharpLibrary/1.0.0": {
+      "type": "project",
+      "path": "../password-manager-CSharpLibrary/password-manager-CSharpLibrary.csproj",
+      "msbuildProject": "../password-manager-CSharpLibrary/password-manager-CSharpLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "password-manager-CSharpLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\akash\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\akash\\Documents\\GitHub\\password-manager-CSharpLibrary\\password-manager-CSharpLibrary\\password-manager-CSharpCLI\\password-manager-CSharpCLI.csproj",
+      "projectName": "password-manager-CSharpCLI",
+      "projectPath": "C:\\Users\\akash\\Documents\\GitHub\\password-manager-CSharpLibrary\\password-manager-CSharpLibrary\\password-manager-CSharpCLI\\password-manager-CSharpCLI.csproj",
+      "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\akash\\Documents\\GitHub\\password-manager-CSharpLibrary\\password-manager-CSharpLibrary\\password-manager-CSharpCLI\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\akash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\akash\\Documents\\GitHub\\password-manager-CSharpLibrary\\password-manager-CSharpLibrary\\password-manager-CSharpLibrary\\password-manager-CSharpLibrary.csproj": {
+              "projectPath": "C:\\Users\\akash\\Documents\\GitHub\\password-manager-CSharpLibrary\\password-manager-CSharpLibrary\\password-manager-CSharpLibrary\\password-manager-CSharpLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
