@@ -78,11 +78,20 @@ Each of these parameters are encrypted individually. Fernet encryption requires 
 #### [Version 1.0.0 Alpha](https://github.com/asankaSovis/password-manager/blob/main/Releases/Python/password_manager_v1.0.0.zip) *[12/01/2022]*
 Based on [Password Manager (Python)](https://github.com/asankaSovis/password-manager-Python) [version 2.1.1 Alpha](https://github.com/asankaSovis/password-manager/blob/main/Releases/Python/password_manager_v2.1.1.zip)
 **NOTE: This is the initial release**
-> MD5: `DAE420C84E57026B7B51DEA8E78637F2`
+
+Password Manager CLI Application
+> MD5: `0de50a1fd43d7a2164942f164bf4d880`
 >
-> SHA1: `F54C135E6257A9C3FA58B2ED953625D120AE8A1F`
+> SHA1: `028eb7f76518b3cb2d4fb853116cf688d45569e1`
 >
-> SHA256: `3E0D95A22F8514AF496E1D27B02D3A2A0C1B7A4821CDC76F5DF5D3B19C0F6591`
+> SHA256: `c4a4fede4fe527832ab0f7656fa4678145737ebb6dc49b43e1218df17629c3d1`
+
+Password Manager Library
+> MD5: `224029b61d35b2762827eb6bc771c018`
+>
+> SHA1: `ead87c0a40a08443bac62b5d32526f0870d23f4e`
+>
+> SHA256: `4bce6b8ad1d9c547e8be8e9beb649fea9f89660a33987ffa8fd76f31ede280b3`
 - Support for Encryption
 - Add, Edit, Delete functionality
 - Viewing and copying functionality
