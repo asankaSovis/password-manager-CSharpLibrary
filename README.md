@@ -88,6 +88,7 @@ Based on [Password Manager (Python)](https://github.com/asankaSovis/password-man
 - Viewing and copying functionality
 - Help and About sections
 - Setting up a passcode
+- Add way to get a new line on command line by pressing enter 
 
 ## Fixes and Features for the Next Release
 - *Suggest new features*
