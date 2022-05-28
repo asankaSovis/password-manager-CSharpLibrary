@@ -1,4 +1,4 @@
-# 🔐 Muragala Password Manager
+# 🔐 Muragala Password Manager (C# Library and CLI)
 ![Poster](https://user-images.githubusercontent.com/46389631/170724038-d95d0555-cb9e-46ec-9d88-66a7c5d366d3.png)
 
 ---
