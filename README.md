@@ -81,14 +81,14 @@ Each of these parameters are encrypted individually. Fernet encryption requires 
 Based on [Password Manager (Python)](https://github.com/asankaSovis/password-manager-Python) [version 2.1.1 Alpha](https://github.com/asankaSovis/password-manager/blob/main/Releases/Python/password_manager_v2.1.1.zip)
 **NOTE: This is the initial release**
 
-[Password Manager CLI Application](https://github.com/asankaSovis/password-manager-CSharpLibrary/blob/main/Releases/C%23%20CLI%20Program/password_manager_CLI_v1.0.0.zip)
+[Password Manager CLI Application Version 1.0.0 Alpha](https://github.com/asankaSovis/password-manager-CSharpLibrary/blob/main/Releases/C%23%20CLI%20Program/password_manager_CLI_v1.0.0.zip)
 > MD5: `0de50a1fd43d7a2164942f164bf4d880`
 >
 > SHA1: `028eb7f76518b3cb2d4fb853116cf688d45569e1`
 >
 > SHA256: `c4a4fede4fe527832ab0f7656fa4678145737ebb6dc49b43e1218df17629c3d1`
 
-[Password Manager Library](https://github.com/asankaSovis/password-manager-CSharpLibrary/blob/main/Releases/C%23%20Library/password_manager_library_v1.0.0.zip)
+[Password Manager Library Version 1.0.0 Alpha](https://github.com/asankaSovis/password-manager-CSharpLibrary/blob/main/Releases/C%23%20Library/password_manager_library_v1.0.0.zip)
 > MD5: `224029b61d35b2762827eb6bc771c018`
 >
 > SHA1: `ead87c0a40a08443bac62b5d32526f0870d23f4e`
