@@ -17,8 +17,8 @@ using System.Text.Json; // JSON Handling
 ///    - Author: Asanka Sovis
 ///    - Project start: 08/01/2022 6:00am
 ///    - Public release: 27/05/2022
-///    - Version: 1.0.0 Alpha
-///    - Current release: 27/05/2022
+///    - Version: 1.0.1 Alpha
+///    - Current release: 06/07/2022
 ///    - License: MIT Open License
 /// </summary>
 
@@ -87,11 +87,11 @@ namespace password_manager_CSharpLibrary
             }
         }
         public static libraryInfo About = new libraryInfo(
-            "1.0.0 Alpha",               // Version
+            "1.0.1 Alpha",               // Version
             "(C) 2022 Asanka Sovis",     // Copyright
             "08/01/2022",                // Project Start Date
             "27/05/2022",                // Project Release Date
-            "27/05/2022"                 // Version Release Date
+            "06/07/2022"                 // Version Release Date
             );
 
         //////////////////////////////////////////////////////////////////
@@ -125,10 +125,12 @@ namespace password_manager_CSharpLibrary
 
         public int loadDatabase(string location)
         {
+            databaseLocation = location;
+
             // We first check if the file exist, if not we make it after showing an error
-            if (!System.IO.File.Exists(location))
+            if (!System.IO.File.Exists(databaseLocation))
             {
-                System.IO.File.Create(location).Close();
+                System.IO.File.Create(databaseLocation).Close();
                 return error_list.database_created;
             }
 
@@ -136,7 +138,7 @@ namespace password_manager_CSharpLibrary
             Dictionary<string, List<Dictionary<string, List<string>>>> tempDatabase = new Dictionary<string, List<Dictionary<string, List<string>>>>();
 
             // Loading data from the file
-            string json = System.IO.File.ReadAllText(location);
+            string json = System.IO.File.ReadAllText(databaseLocation);
 
             // If the loaded string is not empty, then we try to extract the data. If we run into an
             // error, we throw an error and exit.
