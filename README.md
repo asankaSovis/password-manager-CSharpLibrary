@@ -94,12 +94,40 @@ Based on [Password Manager (Python)](https://github.com/asankaSovis/password-man
 > SHA1: `ead87c0a40a08443bac62b5d32526f0870d23f4e`
 >
 > SHA256: `4bce6b8ad1d9c547e8be8e9beb649fea9f89660a33987ffa8fd76f31ede280b3`
+
+## Changelog
 - Support for Encryption
 - Add, Edit, Delete functionality
 - Viewing and copying functionality
 - Help and About sections
 - Setting up a passcode
 - Add way to get a new line on command line by pressing enter 
+
+# V1.0.2 Alpha
+Muragala Password manager is a password manager designed to make managing passwords easy and secure. My goal is to make it a secure and reliable password manager available in the public domain for everyone to use. Privacy and security are for everyone, this is the core value behind this project. It uses [Fernet encryption](https://cryptography.io/en/latest/fernet/) to encrypt passwords and store them on a database. It uses two-factor authentication with a password and randomly generated salt to encrypt the database. The application is built to be as simple as possible to make sure it's secure. On the other hand, this project is an experiment to see how to make a better security application.
+
+Based on [Password Manager (Python)](https://github.com/asankaSovis/password-manager-Python) [version 2.1.1 Alpha](https://github.com/asankaSovis/password-manager/blob/main/Releases/Python/password_manager_v2.1.1.zip)
+
+Password Manager CLI Application
+> MD5: `53b733d0ff64350a3d55ca30b36f0aba`
+>
+> SHA1: `8aac15c1c8790b9f9d10b59fe892cd89ba36ec5b`
+>
+> SHA256: `ebb6cf5a0d6f369a3cd50caeb21edd81e4c00d89ef43af8e8d593573c4af2abd`
+
+Password Manager Library
+> MD5: `6d8a81ead29fb3c2234821879b2e6c7e`
+>
+> SHA1: `a2e9f249f465c84dbc1774e338e87cc960a5bd96`
+>
+> SHA256: `89e8a5f2bccb49219f74f70105e77bcb30cc0573528d06776411701388cd29ed`
+
+## Changelog
+- Fixed the location issue in library
+- Upgraded the library to v1.0.1 form CLI Application
+- Added separate location for data files
+
+[Read the Blog](https://asanka.hashnode.dev/muragala-password-manager-05)
 
 ## Fixes and Features for the Next Release
 - *Suggest new features*
