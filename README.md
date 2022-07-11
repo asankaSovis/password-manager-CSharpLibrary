@@ -102,7 +102,6 @@ Based on [Password Manager (Python)](https://github.com/asankaSovis/password-man
 - Add way to get a new line on command line by pressing enter 
 
 #### Version 1.0.2 Alpha *[11/07/2022]*
-Muragala Password manager is a password manager designed to make managing passwords easy and secure. My goal is to make it a secure and reliable password manager available in the public domain for everyone to use. Privacy and security are for everyone, this is the core value behind this project. It uses [Fernet encryption](https://cryptography.io/en/latest/fernet/) to encrypt passwords and store them on a database. It uses two-factor authentication with a password and randomly generated salt to encrypt the database. The application is built to be as simple as possible to make sure it's secure. On the other hand, this project is an experiment to see how to make a better security application.
 
 Based on [Password Manager (Python)](https://github.com/asankaSovis/password-manager-Python) [version 2.1.1 Alpha](https://github.com/asankaSovis/password-manager/blob/main/Releases/Python/password_manager_v2.1.1.zip)
 
