@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "password-manager-CSharpLibrary/1.0.0": {
+      "Muragala Library/1.0.0": {
         "dependencies": {
           "Fernet": "0.1.7"
         },
         "runtime": {
-          "password-manager-CSharpLibrary.dll": {}
+          "Muragala Library.dll": {}
         }
       },
       "Fernet/0.1.7": {
@@ -25,7 +25,7 @@
     }
   },
   "libraries": {
-    "password-manager-CSharpLibrary/1.0.0": {
+    "Muragala Library/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

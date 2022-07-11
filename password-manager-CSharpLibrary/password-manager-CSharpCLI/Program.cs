@@ -4,7 +4,7 @@ using System.Collections.Generic; // Access Dictionary and List data types
 using password_manager_CSharpLibrary; // Muragala Library
 
 /// <summary>
-///                            %% 🔐 PASSWORD MANAGER 🔐 %%
+///                       %% 🔐 MURAGALA PASSWORD MANAGER 🔐 %%
 ///                                © 2022 Asanka Sovis
 ///
 ///                  This is a basic password manager made in C#.
@@ -16,8 +16,8 @@ using password_manager_CSharpLibrary; // Muragala Library
 ///    - Author: Asanka Sovis
 ///    - Project start: 08/01/2022 6:00am
 ///    - Public release: 27/05/2022
-///    - Version: 1.0.0 Alpha
-///    - Current release: 27/05/2022
+///    - Version: 1.0.2 Alpha
+///    - Current release: 07/07/2022
 ///    - License: MIT Open License
 /// </summary>
 
@@ -41,6 +41,8 @@ namespace password_manager_CSharpCLI
 
         // Location of core files
         public static string myLocation = AppDomain.CurrentDomain.BaseDirectory;
+        // Location of user data
+        public static string dataLocation = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\Muragala Password Manager";
 
         /////////////////////////////////////////////////////////////////
         ////// MAIN
@@ -918,7 +920,7 @@ namespace password_manager_CSharpCLI
 
         static void loadDatabase()
         {
-            int error = library.loadDatabase(myLocation + "database.en");
+            int error = library.loadDatabase(dataLocation + "\\database.en");
 
             if (error == MuragalaLibrary.error_list.database_created)
                 printf(strVals["no_database_found"]);
@@ -935,7 +937,7 @@ namespace password_manager_CSharpCLI
 
         static void loadPreference()
         {
-            int error = library.loadPreference(myLocation + "preferences.en");
+            int error = library.loadPreference(dataLocation + "\\preferences.en");
 
             if (error == MuragalaLibrary.error_list.preference_load_failed)
             {
@@ -949,7 +951,7 @@ namespace password_manager_CSharpCLI
 
                 }
 
-                error = library.createPreference(myLocation + "preferences.en", myPasscode.password, myPasscode.password);
+                error = library.createPreference(dataLocation + "\\preferences.en", myPasscode.password, myPasscode.password);
                 if (error == MuragalaLibrary.error_list.success)
                     printf(strVals["create_new_password_success"]);
             }

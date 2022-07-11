@@ -11,17 +11,17 @@
           "lib/netstandard2.0/Fernet.dll": {}
         }
       },
-      "password-manager-CSharpLibrary/1.0.0": {
+      "Muragala Library/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Fernet": "0.1.7"
         },
         "compile": {
-          "bin/placeholder/password-manager-CSharpLibrary.dll": {}
+          "bin/placeholder/Muragala Library.dll": {}
         },
         "runtime": {
-          "bin/placeholder/password-manager-CSharpLibrary.dll": {}
+          "bin/placeholder/Muragala Library.dll": {}
         }
       }
     }
@@ -39,7 +39,7 @@
         "lib/netstandard2.0/Fernet.dll"
       ]
     },
-    "password-manager-CSharpLibrary/1.0.0": {
+    "Muragala Library/1.0.0": {
       "type": "project",
       "path": "../password-manager-CSharpLibrary/password-manager-CSharpLibrary.csproj",
       "msbuildProject": "../password-manager-CSharpLibrary/password-manager-CSharpLibrary.csproj"
@@ -47,7 +47,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "password-manager-CSharpLibrary >= 1.0.0"
+      "Muragala Library >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -57,7 +57,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\akash\\Documents\\GitHub\\password-manager-CSharpLibrary\\password-manager-CSharpLibrary\\password-manager-CSharpCLI\\password-manager-CSharpCLI.csproj",
-      "projectName": "password-manager-CSharpCLI",
+      "projectName": "Muragala Password Manager (CLI)",
       "projectPath": "C:\\Users\\akash\\Documents\\GitHub\\password-manager-CSharpLibrary\\password-manager-CSharpLibrary\\password-manager-CSharpCLI\\password-manager-CSharpCLI.csproj",
       "packagesPath": "C:\\Users\\akash\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\akash\\Documents\\GitHub\\password-manager-CSharpLibrary\\password-manager-CSharpLibrary\\password-manager-CSharpCLI\\obj\\",

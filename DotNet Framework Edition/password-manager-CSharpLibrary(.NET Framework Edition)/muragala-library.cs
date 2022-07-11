@@ -5,7 +5,7 @@ using System.Security.Cryptography; // Cryptographic functions
 using System.Text.Json; // JSON Handling
 
 /// <summary>
-///                            %% 🔐 PASSWORD MANAGER 🔐 %%
+///                       %% 🔐 MURAGALA PASSWORD MANAGER 🔐 %%
 ///                                © 2022 Asanka Sovis
 ///
 ///                  This is a basic password manager made in C#.
@@ -13,6 +13,7 @@ using System.Text.Json; // JSON Handling
 ///                  This is still under development and must not be
 ///                         used as primary password manager.
 ///                           *Made with ❤️ in Sri Lanka
+///    Blog: https://asanka.hashnode.dev/muragala-password-manager-04
 ///
 ///    - Author: Asanka Sovis
 ///    - Project start: 08/01/2022 6:00am

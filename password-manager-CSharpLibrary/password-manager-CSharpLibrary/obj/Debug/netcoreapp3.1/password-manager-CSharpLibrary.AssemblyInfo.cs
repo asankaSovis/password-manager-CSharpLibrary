@@ -11,14 +11,14 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("password-manager-CSharpLibrary")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Muragala Library")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Asanka Sovis")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute(@"Muragala is a password manager designed to make managing passwords easy and secure. My goal is to make it a secure and reliable password manager available in the public domain for everyone to use. Privacy and security is for everyone, this is the core value behind this project.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("password-manager-CSharpLibrary")]
-[assembly: System.Reflection.AssemblyTitleAttribute("password-manager-CSharpLibrary")]
+[assembly: System.Reflection.AssemblyProductAttribute("Muragala Library")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Muragala Library")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/asankaSovis/password-manager-CSharpLibrary/tree/v1.0.0-alpha")]
 [assembly: System.Resources.NeutralResourcesLanguageAttribute("en-GB")]
